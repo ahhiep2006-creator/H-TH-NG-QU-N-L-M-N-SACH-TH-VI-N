@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public interface FinePolicy {
 
-    boolean supports(Reader reader);
+     boolean supports(Reader reader);
 
     BigDecimal calculateFine(Reader reader, long overdueDays);
 }
