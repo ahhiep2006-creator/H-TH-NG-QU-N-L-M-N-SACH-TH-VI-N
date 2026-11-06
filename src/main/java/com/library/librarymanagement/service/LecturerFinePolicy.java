@@ -23,4 +23,4 @@ public class LecturerFinePolicy implements FinePolicy {
         return BigDecimal.valueOf(overdueDays)
                 .multiply(BigDecimal.valueOf(2000));
     }
-}
+ }
